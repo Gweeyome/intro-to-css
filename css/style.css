@@ -7,34 +7,27 @@ body{
 }
 
 
-h1{
+h1, h2, h3 {
     margin-bottom: 0;
 }
 
-h2{
-    margin-bottom: 0;
-}
 
-h3{
-    margin-bottom: 0;
-}
-
-#company-name{
+#company-name {
     font-size: 1.5rem;
 }
 
-header{
+header,footer {
     background-color: #000;
     color: #DEC9E9;
 }
 
-.wrapper{
+.wrapper {
     max-width: 940px;
     margin: 0 auto;
     padding: 2em;
 }
 
-ul, ol{
+ul, ol {
     padding: 0;
     list-style: none; 
 }
@@ -44,27 +37,27 @@ nav ul li a {
     text-decoration: none;
 }
 
-#intro+section{
+#intro+section {
     background-color: #000;
     color: #DEC9E9;
 }
 
-article>img{
+article>img {
     width: 150px;
     border-radius: 50%;
     filter: grayscale(100%);
     margin-top: 1em;
 }
 
-ol li:nth-child(even){
+ol li:nth-child(even) {
     color: #dc33dc;
 }
 
-main>img{
+main>img {
     width: 100%;
 }
 
-footer{
+footer {
     background-color: #000;
     color: #DEC9E9;
 }
